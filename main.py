@@ -10,5 +10,6 @@ def main():
 
 async def OnStartUp(dp):
     SetupHandlers(dp)
+    print("Bot started")
 
 main()
